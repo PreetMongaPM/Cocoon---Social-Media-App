@@ -1,0 +1,3 @@
+const Feed = ()=>{
+    <div></div>
+}

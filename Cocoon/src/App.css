@@ -1,0 +1,66 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid grey;
+
+}
+
+.logo{
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.controller{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.controller >div{
+  margin: 4px;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#searchBar{
+  border: 0px;
+}
+.story-bar{
+  display: flex;
+  gap: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+
+.story-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+}
+
+.story-icon > img{
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+}
