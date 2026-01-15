@@ -1,6 +1,7 @@
 import './App.css'
-import Header from './components/Header'
-import StoryBar from './components/StoryBar'
+import Header from './components/HomePage/Header'
+import StoryBar from './components/HomePage/StoryBar'
+import Feed from './components/HomePage/Feed'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <StoryBar/>   
+      <Feed></Feed>
     </>
   )
 }
