@@ -4,17 +4,10 @@ const StoryBar = () => {
   return (
     <div className="story-bar">
       <div className="story">
-        <ProfilePhoto />
+        <ProfilePhoto className="profile-photo story-icon" />
         <h3 style={{ fontSize: "9px", marginTop:"0px" }}>user_name</h3>
       </div>
-      <div className="story">
-        <ProfilePhoto />
-        <h3 style={{ fontSize: "9px", marginTop:"0px" }}>user_name</h3>
-      </div>
-      <div className="story">
-        <ProfilePhoto />
-        <h3 style={{ fontSize: "9px", marginTop:"0px" }}>user_name</h3>
-      </div>
+     
     </div>
   );
 };
