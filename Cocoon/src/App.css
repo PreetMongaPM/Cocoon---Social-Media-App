@@ -222,3 +222,41 @@ button{
   font-size: 0.7rem;
   font-weight: 600;
 }
+
+.highlight-bar{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.highlight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight-content{
+  width: 40px;
+  height: 40px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 1.8px;
+}
+
+.add-highlight{
+    border: 1px solid black;
+}
+
+
+.plus-highlight-icon{
+  width: 40px;
+  margin-top: 7.5px;
+  height: 25px;
+}
+
+.highlight-title{
+  margin-top: 2px;
+  font-size: 0.5rem;
+}
+
